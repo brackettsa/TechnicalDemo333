@@ -5,7 +5,7 @@ import math
 import matplotlib.pyplot as plt
 
 # IMPORT FILES
-dataset = pd.read_csv("Data/responses.csv")
+dataset = pd.read_csv("responses.csv")
 
 # drop only child column - redundant with number of siblings
 dataset.drop(dataset.columns[147], axis = 1, inplace = True)
